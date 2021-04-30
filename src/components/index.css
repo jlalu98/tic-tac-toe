@@ -1,0 +1,145 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.header {
+  background-color: rgb(16, 0, 247);
+  height: 100px;
+  position: relative;
+  bottom: 22px;
+  box-shadow: 0 10px;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 25px;
+  color: white;
+}
+h1:hover {
+  color: black;
+}
+.board {
+  position: relative;
+  left: 300px;
+  bottom: 40px;
+  width: 150px;
+  padding: 0px;
+}
+.cell {
+  margin: 0px;
+  width: 50px;
+  height: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  min-height: 50px;
+  min-width: 50px;
+  background: rgb(16, 0, 247);
+  color: white;
+  padding: 5px;
+  font-size: 2em;
+}
+.play {
+  background-color: rgb(16, 0, 247);
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+}
+.play:hover {
+  background-color: rgb(126, 0, 245);
+  color: rgb(248, 248, 248);
+}
+.start {
+  background-color: rgb(16, 0, 247);
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  left: 600px;
+}
+.start:hover {
+  background-color: rgb(126, 0, 245);
+  color: rgb(248, 248, 248);
+}
+.restart {
+  background-color: rgb(16, 0, 247);
+  padding: 10px 17px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  left: 334px;
+  top: 160px;
+}
+.restart:hover {
+  background-color: rgb(126, 0, 245);
+  color: black;
+}
+
+.myTable {
+  position: relative;
+  left: 850px;
+  bottom: 275px;
+}
+table {
+  width: 20%;
+  border-collapse: collapse;
+}
+th {
+  height: 35px;
+}
+td {
+  height: 30px;
+  text-align: center;
+  background-color: rgb(16, 0, 247);
+  color: white;
+  vertical-align: bottom;
+}
+table,
+th,
+td {
+  background-color: rgb(16, 0, 247);
+  border: 2px solid white;
+}
+
+.form {
+  width: 30%;
+  height: 50px;
+  text-align: center;
+  position: relative;
+  left: 450px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+h4 {
+  position: relative;
+  left: 300px;
+  bottom: 5px;
+}
+
+input {
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(219, 219, 219);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.counter {
+  display: inline-block;
+  font-size: 20px;
+  background-color: blue;
+  border-radius: 25px;
+  color: white;
+  padding: 5px;
+}

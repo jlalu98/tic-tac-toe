@@ -1,11 +1,11 @@
 import AppHeader from "./components/AppHeader";
-import Game from "./components/Game";
+import values from "./components/Game";
 
 function App() {
   return (
     <div>
       <AppHeader />
-      <Game />
+      <values.Game />
     </div>
   );
 }
